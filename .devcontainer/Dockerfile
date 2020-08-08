@@ -1,6 +1,6 @@
 # Update the VARIANT arg in devcontainer.json to pick a PHP version
 ARG VARIANT=7
-FROM php:${VARIANT}-cli
+FROM wyrihaximusnet/php:7.4-zts-alpine3.12-dev
 
 # This Dockerfile adds a non-root user with sudo access. Update the “remoteUser” property in
 # devcontainer.json to use it. More info: https://aka.ms/vscode-remote/containers/non-root-user.
